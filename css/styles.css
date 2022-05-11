@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.main {
+  background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
+	margin-bottom: 186px;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  color: #faf9f9;
+  flex: 0 0 580px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+h1 {
+  font-size: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 120px;
+  margin-bottom: 40px;
+}
+h1 span {
+  color: #fbb731;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  line-height: 26.6px;
+  margin-bottom: 42px;
+	width: 524px;
+}
+a {
+  color: #1e2f40;
+  background-color: #fbb731;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+.visual {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(
+    2.42deg,
+    #f37335 -19.6%,
+    #fbb731 100.79%,
+    #fdc830 100.79%
+  );
+}
+img {
+  width: 829px;
+  position: absolute;
+  right: -168px;
+}
+.banners{
+	margin-bottom: 185px;
+}
+.banner1{
+	background-image: url(../images/banner1.png);
+	width: 580px;
+}
+.banner1 span{
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 900;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 5px 18px;
+	margin-left: 50px;
+	margin-top: 116px;
+	background-color: #F37335;
+	border-radius: 14px;
+	display: inline-block;
+}
+h2{
+	font-size: 60px;
+	line-height: 76px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 50px;
+}
+.banner1 p{
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #FAF9F9;
+	margin-left: 50px;
+	margin-top: 8px;
+	padding-bottom: 75px;
+	width: 360px;
+}
+.banner2{
+	background-image: url(../images/banner2.png);
+	width: 580px;
+	position: relative;
+}
+h3{
+	font-size: 44px;
+	line-height: 56px;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin-left: 50px;
+	margin-top: 102px;
+}
+.banner2 p{
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #FAF9F9;
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 300px;
+}
+.banner2 a{
+	margin-left: 50px;
+	position: absolute;
+	bottom: 100px;
+}
